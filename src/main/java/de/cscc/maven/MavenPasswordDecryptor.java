@@ -7,7 +7,7 @@ public class MavenPasswordDecryptor {
 		
 		if (args.length < 1 || args.length > 2 ) {
 			System.out.println("Usage: java -jar maven-password-decryptor.jar <encrypted-password>");
-			System.out.println("Usage: java -jar maven-password-decryptor.jar <encrypted-passworrd> <master-password>");
+			System.out.println("Usage: java -jar maven-password-decryptor.jar <encrypted-password> <master-password>");
 			return;
 		}
 		
